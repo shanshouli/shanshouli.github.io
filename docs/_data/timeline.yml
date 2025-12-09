@@ -1,41 +1,82 @@
-- title: MS in Computer Science, Northeastern University
-  from: Sep 2023
-  to: Present (Expected Apr 2026)
-  description: GPA 4.0 / 4.0 | Khoury College of Computer Sciences, California Campus
+- title: <strong>DeepThink Health</strong><br><span style="font-size:0.9em; font-weight:400;">Software Engineer</span>
+  from: 2025
+  to: Present
+  description: <strong>Tech Stack:</strong> ML Pipeline Optimization, Model Fine-tuning, 
+               LayoutLMv3, Table Transformer, AWS, Label Studio
                <br><br>
-               <strong>Relevant Coursework:</strong> Computer Systems, Algorithms, 
-               Building Scalable Distributed Systems, Advanced Software Development, 
-               AI Research Capstone
+               • Developed and fine-tuned an AI-powered document processing pipeline using 
+               LayoutLMv3 and Table Transformer to extract structured data from scanned 
+               medical-device bill sheets; improved field extraction accuracy by 25%, 
+               reduced manual review time by 40%, and accelerated billing automation
                <br><br>
-               <strong>Focus Areas:</strong> Distributed Systems, Machine Learning, 
-               Cloud Computing, High-Performance Computing
+               • Built annotation workflows and error-reporting processes for 3,000+ scanned 
+               bill sheets, uncovering key OCR failure patterns and guiding model retraining; 
+               improved data pipeline accuracy to 95%+, reducing manual correction efforts by 30%
 
-- title: MS in Structural Engineering, Dalian University of Technology
-  from: Sep 2019
-  to: Jun 2022
-  description: GPA 3.64 / 4.0 | Dalian, China
+- title: <strong>Aosenuma</strong><br><span style="font-size:0.9em; font-weight:400;">Software Developer</span>
+  from: 2024
+  to: 2024
+  description: <strong>Tech Stack:</strong> Next.js, FastAPI, Redis, RAG, Docker, 
+               Knowledge Graph, LangChain, Prometheus, Grafana
                <br><br>
-               <strong>Relevant Coursework:</strong> Database Management Systems, 
-               Cloud Computing, Big Data Systems, Statistical Learning, 
-               Advanced Web Development, CAE Software Applications
+               • Spearheaded a large-scale backend refactor initiative, decomposing a 7,700+ LOC 
+               monolithic app with 58 tightly coupled endpoints into a modular architecture; 
+               reduced weekly merge conflicts by 50% and accelerated feature delivery
+               <br><br>
+               • Developed a CI/CD pipeline with k6 smoke testing, Prometheus and Grafana dashboards; 
+               enabled performance trend tracking and automated alerts
+               <br><br>
+               • Built and deployed a RAG microservice using LangChain to process unstructured and 
+               tabular data, generate embeddings, and construct a knowledge graph; cut data retrieval 
+               time by 40%
+               <br><br>
+               • Reduced token cost by 44% via Helicone monitoring, intent-based model routing, 
+               and Redis caching; leveraged RAGAS and prompt tuning to boost answer faithfulness 
+               and context precision
+
+- title: <strong>Northeastern University</strong><br><span style="font-size:0.9em; font-weight:400;">Graduate Teaching Assistant</span>
+  from: 2024
+  to: 2025
+  description: <strong>Focus Areas:</strong> Algorithms, Python, Java, C, Code Review, Mentorship
+               <br><br>
+               • Mentored 45+ students in Python, Java, and C, with emphasis on algorithmic 
+               complexity analysis, modular system design, and robust input validation, 
+               achieving a 92% positive feedback rating
+               <br><br>
+               • Led informal code reviews for students, helping identify performance bottlenecks 
+               and testing gaps, which reduced common runtime errors by 40%+ and improved 
+               assignment pass rates by 20%
+
+- title: <strong>Northeastern University</strong><br><span style="font-size:0.9em; font-weight:400;">MS in Computer Science</span>
+  from: 2023
+  to: 2026
+  description: <strong>GPA:</strong> 4.0 / 4.0 | Khoury College of Computer Sciences, California
+               <br><br>
+               <strong>Coursework:</strong> Computer Systems, Algorithms, Building Scalable 
+               Distributed Systems, Advanced Software Development, AI Research Capstone
+               <br><br>
+               <strong>Focus:</strong> Distributed Systems, Machine Learning, Cloud Computing, 
+               High-Performance Computing
+
+- title: <strong>Dalian University of Technology</strong><br><span style="font-size:0.9em; font-weight:400;">MS in Structural Engineering</span>
+  from: 2019
+  to: 2022
+  description: <strong>GPA:</strong> 3.64 / 4.0 | Dalian, China
+               <br><br>
+               <strong>Coursework:</strong> Database Management Systems, Cloud Computing, 
+               Big Data Systems, Statistical Learning, Advanced Web Development, 
+               CAE Software Applications
                <br><br>
                <strong>Research:</strong> Advanced analysis of composite structural systems 
                using finite element methods and experimental validation
-               <br><br>
-               <strong>Technical Skills:</strong> ABAQUS, MATLAB, C++, 
-               Structural Analysis, Numerical Methods
 
-- title: BS in Civil Engineering, East China Jiaotong University
-  from: Sep 2015
-  to: Jun 2019
-  description: GPA 90.73 / 100 | Nanchang, China
+- title: <strong>East China Jiaotong University</strong><br><span style="font-size:0.9em; font-weight:400;">BS in Civil Engineering</span>
+  from: 2015
+  to: 2019
+  description: <strong>GPA:</strong> 90.73 / 100 | Nanchang, China
                <br><br>
-               <strong>Relevant Coursework:</strong> Data Structures and Algorithms, 
-               Calculus, Discrete Mathematics, Data Mining, 
-               Data Processing and Analysis, Structural Mechanics
+               <strong>Coursework:</strong> Data Structures and Algorithms, Calculus, 
+               Discrete Mathematics, Data Mining, Data Processing and Analysis
                <br><br>
-               <strong>Foundation:</strong> Built strong foundation in mathematics, 
-               programming, and engineering principles
-               <br><br>
-               <strong>Capstone:</strong> Truss analysis software development 
-               demonstrating proficiency in C++ and numerical methods
+               <strong>Capstone:</strong> Truss analysis software development demonstrating 
+               proficiency in C++ and numerical methods

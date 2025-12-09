@@ -3,9 +3,9 @@
     {% for item in site.data.timeline %}
       <div class="timeline-item">
         <div class="content">
-          <h2>{{ item.title }}</h2>
-          <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
-          <p>{{ item.description }}</p>
+          <h2 style="margin-bottom: 0.3rem;">{{ item.title }}</h2>
+          <h6 class="date" style="font-weight: 400; opacity: 0.8; margin-bottom: 0.8rem;">{{ item.from }} — {{ item.to }}</h6>
+          <p style="line-height: 1.7;">{{ item.description }}</p>
         </div>
       </div>
     {% endfor %}
