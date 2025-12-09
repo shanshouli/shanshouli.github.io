@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Working Experience
-permalink: /working/
+title: Experience
+permalink: /experience/
 weight: 3
 ---
 
-# **Working Experience**
+# **Experience**
 
-{% include about/timeline.html title="Working Experience" source=site.data.timeline-work %}
+{% include about/timeline.html source=site.data.timeline-work %}
 

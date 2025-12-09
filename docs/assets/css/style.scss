@@ -5,6 +5,13 @@
 /* Custom overrides */
 .project.card {
   height: 100%;
+  border: 1px solid rgba(0,0,0,0.04);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.project.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
 .project-img {
@@ -15,12 +22,22 @@
 .project .card-body {
   display: flex;
   flex-direction: column;
+  padding: 1.2rem 1.1rem 1rem;
 }
 
 .project .card-body .card-title {
-  line-height: 1.4;
+  line-height: 1.35;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .project .card-body .card-text {
   margin-top: auto;
+  line-height: 1.5;
+}
+
+.project .badge {
+  font-weight: 600;
+  font-size: 0.82rem;
 }
