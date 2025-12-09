@@ -1,0 +1,27 @@
+- title: <strong>Northeastern University</strong><br><span style="font-size:0.9em; font-weight:400;">MS in Computer Science</span>
+  from: 2023
+  to: 2026
+  description: <strong>GPA:</strong> 4.0 / 4.0 | Khoury College of Computer Sciences, California
+               <br><br>
+               <strong>Coursework:</strong> Computer Systems, Algorithms, Building Scalable Distributed Systems, Advanced Software Development, AI Research Capstone
+               <br><br>
+               <strong>Focus:</strong> Distributed Systems, Machine Learning, Cloud Computing, High-Performance Computing
+
+- title: <strong>Dalian University of Technology</strong><br><span style="font-size:0.9em; font-weight:400;">MS in Structural Engineering</span>
+  from: 2019
+  to: 2022
+  description: <strong>GPA:</strong> 3.64 / 4.0 | Dalian, China
+               <br><br>
+               <strong>Coursework:</strong> Database Management Systems, Cloud Computing, Big Data Systems, Statistical Learning, Advanced Web Development, CAE Software Applications
+               <br><br>
+               <strong>Research:</strong> Advanced analysis of composite structural systems using finite element methods and experimental validation
+
+- title: <strong>East China Jiaotong University</strong><br><span style="font-size:0.9em; font-weight:400;">BS in Civil Engineering</span>
+  from: 2015
+  to: 2019
+  description: <strong>GPA:</strong> 90.73 / 100 | Nanchang, China
+               <br><br>
+               <strong>Coursework:</strong> Data Structures and Algorithms, Calculus, Discrete Mathematics, Data Mining, Data Processing and Analysis
+               <br><br>
+               <strong>Capstone:</strong> Truss analysis software development demonstrating proficiency in C++ and numerical methods
+

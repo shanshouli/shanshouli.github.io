@@ -7,14 +7,22 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Hi, I’m **{{ site.author.name }}** :wave:, a full-stack + AI engineer focused on building scalable systems, ML pipelines, and production-quality tooling. I enjoy turning messy data and complex architectures into reliable products that ship fast and stay maintainable.
 
+---
+
+## Working Experience
+{% include about/timeline.html title="Working Experience" source=site.data.timeline-work %}
+
+---
+
+## Education
+{% include about/timeline.html title="Education" source=site.data.timeline-education %}
+
+---
+
+## Skills
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
-
-<div class="row">
-{% include about/timeline.html %}
 </div>
