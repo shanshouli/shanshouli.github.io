@@ -5,7 +5,5 @@ permalink: /education/
 weight: 4
 ---
 
-# **Education**
-
-{% include about/timeline.html title="Education" source=site.data.timeline-education %}
+{% include about/timeline.html source=site.data.timeline-education %}
 

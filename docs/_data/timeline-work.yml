@@ -1,4 +1,4 @@
-- title: <strong>DeepThink Health</strong><br><span style="font-size:0.72em; font-weight:400; opacity:0.85;">Software Engineer</span>
+- title: <span style="font-size:1.3em; font-weight:700;">DeepThink Health</span><br><span style="font-size:0.85em; font-weight:400; opacity:0.8;">Software Engineer</span>
   from: 2025
   to: 
   description: <strong>Tech Stack:</strong> ML Pipeline Optimization, Model Fine-tuning, LayoutLMv3, Table Transformer, AWS, Label Studio
@@ -7,7 +7,7 @@
                <br><br>
                • Built annotation workflows and error-reporting processes for 3,000+ scanned bill sheets, uncovering key OCR failure patterns and guiding model retraining; improved data pipeline accuracy to 95%+, reducing manual correction efforts by 30%
 
-- title: <strong>Aosenuma</strong><br><span style="font-size:0.72em; font-weight:400; opacity:0.85;">Software Developer</span>
+- title: <span style="font-size:1.3em; font-weight:700;">Aosenuma</span><br><span style="font-size:0.85em; font-weight:400; opacity:0.8;">Software Developer</span>
   from: 2024
   to: 
   description: <strong>Tech Stack:</strong> Next.js, FastAPI, Redis, RAG, Docker, Knowledge Graph, LangChain, Prometheus, Grafana
@@ -20,7 +20,7 @@
                <br><br>
                • Reduced token cost by 44% via Helicone monitoring, intent-based model routing, and Redis caching; leveraged RAGAS and prompt tuning to boost answer faithfulness and context precision
 
-- title: <strong>Northeastern University</strong><br><span style="font-size:0.72em; font-weight:400; opacity:0.85;">Graduate Teaching Assistant</span>
+- title: <span style="font-size:1.3em; font-weight:700;">Northeastern University</span><br><span style="font-size:0.85em; font-weight:400; opacity:0.8;">Graduate Teaching Assistant</span>
   from: 2024
   to: 
   description: <strong>Focus Areas:</strong> Algorithms, Python, Java, C, Code Review, Mentorship
