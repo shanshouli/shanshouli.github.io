@@ -18,21 +18,23 @@ Hi, I’m **{{ site.author.name }}** :wave:
 
 ## 🧩 Tech Stack
 
-**Backend & Distributed Systems**  
-- Java (Spring Boot), Python (FastAPI), gRPC, REST, multithreading, 2PC  
-- Built a replicated key-value store and internal APIs for ESG reporting.
+**Programming Languages**  
+• Java, Python, C, C++, Go, JavaScript, TypeScript, MATLAB
 
-**AI / ML & Data**  
-- Python, PyTorch, NumPy, Pandas, scikit-learn  
-- CNNs for neutron reflectivity inversion; document pipelines (LayoutLMv3, Table Transformer).
-
-**Data Storage & Messaging**  
-- PostgreSQL, Supabase, Redis  
-- Kafka / RabbitMQ (basic pub-sub prototypes).
+**AI / ML**  
+• PyTorch, scikit-learn, LangChain, OpenAI API, RAG, Hugging Face
 
 **Cloud & DevOps**  
-- Docker, GitHub Actions, AWS (EC2, S3), Slurm on HPC clusters  
-- CI/CD, containerized services, GPU training workflows.
+• AWS, Terraform, Docker, Kubernetes, GitHub Actions, CI/CD pipelines, Jira
 
-**Languages**  
-- Python, Java, JavaScript/TypeScript, C/C++, MATLAB
+**Frameworks & Tools**  
+• Spring Boot, Spring Cloud, Node.js, Express.js, React.js, Maven
+
+**Databases & Caching**  
+• MySQL, MongoDB, Redis, PostgreSQL, Elasticsearch
+
+**Message Queue & Middleware**  
+• RocketMQ, Apache Kafka, RabbitMQ
+
+**Version Control & Tools**  
+• Git, Linux, Jupyter Notebook, Postman, Cursor, CodeX, ClaudeCode

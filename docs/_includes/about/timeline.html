@@ -7,13 +7,13 @@
     {% for item in items %}
       <div class="timeline-item">
         <div class="content">
-          <h2 style="margin-bottom: 0.35rem;">{{ item.title }}</h2>
+          <h2 class="timeline-title">{{ item.title }}</h2>
           {% if item.to and item.to != item.from %}
-            <h6 class="date" style="font-weight: 400; opacity: 0.8; margin-bottom: 0.8rem;">{{ item.from }} — {{ item.to }}</h6>
+            <h6 class="timeline-date">{{ item.from }} — {{ item.to }}</h6>
           {% else %}
-            <h6 class="date" style="font-weight: 400; opacity: 0.8; margin-bottom: 0.8rem;">{{ item.from }}</h6>
+            <h6 class="timeline-date">{{ item.from }}</h6>
           {% endif %}
-          <p style="line-height: 1.7;">{{ item.description }}</p>
+          <p class="timeline-desc">{{ item.description }}</p>
         </div>
       </div>
     {% endfor %}
