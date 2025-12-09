@@ -1,11 +1,39 @@
-- name: HTML5/CSS3
+- name: Java & Spring Ecosystem
+  percentage: 95
+  color: success
+  description: Spring Boot, Spring Cloud, Maven
+
+- name: Python & AI/ML
   percentage: 90
+  color: primary
+  description: PyTorch, scikit-learn, NumPy, Pandas
+
+- name: JavaScript/TypeScript
+  percentage: 85
+  color: warning
+  description: React.js, Node.js, Express.js
+
+- name: Cloud & DevOps
+  percentage: 88
+  color: info
+  description: AWS, Docker, Kubernetes, Terraform, CI/CD
+
+- name: Database Technologies
+  percentage: 85
   color: danger
+  description: MySQL, MongoDB, Redis, PostgreSQL, Elasticsearch
 
-- name: Go
-  percentage: 80
-  color:
-
-- name: Python
-  percentage: 70
+- name: Message Queue & Streaming
+  percentage: 82
   color: secondary
+  description: Apache Kafka, RabbitMQ, RocketMQ
+
+- name: C/C++
+  percentage: 80
+  color: dark
+  description: System Programming, HPC, CUDA
+
+- name: MATLAB
+  percentage: 75
+  color: 
+  description: Scientific Computing, Signal Processing
