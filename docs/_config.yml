@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Shanshou Li
 description         : >-
-                      Full-stack Developer | AI Enthusiast | Open Source Contributor
+                      Full-stack Developer | AI Enthusiast
                       
 baseurl             : ""                       
 repository          : shanshouli/shanshouli.github.io
@@ -11,6 +11,10 @@ open_new_tab        : false                    # Opens external URLs in new tab 
 
 ### Plugins ###
 plugins:
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-include-cache
   - jemoji
 
 
@@ -19,6 +23,8 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
+  - pages/blog.html
+  - pages/search.json
   - documentation/partials/**                           # For Documentation Only
 
 
