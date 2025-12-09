@@ -1,6 +1,6 @@
 - title: <strong>DeepThink Health</strong><br><span style="font-size:0.9em; font-weight:400;">Software Engineer</span>
   from: 2025
-  to: Present
+  to: 
   description: <strong>Tech Stack:</strong> ML Pipeline Optimization, Model Fine-tuning, LayoutLMv3, Table Transformer, AWS, Label Studio
                <br><br>
                • Developed and fine-tuned an AI-powered document processing pipeline using LayoutLMv3 and Table Transformer to extract structured data from scanned medical-device bill sheets; improved field extraction accuracy by 25%, reduced manual review time by 40%, and accelerated billing automation
@@ -9,7 +9,7 @@
 
 - title: <strong>Aosenuma</strong><br><span style="font-size:0.9em; font-weight:400;">Software Developer</span>
   from: 2024
-  to: 2024
+  to: 
   description: <strong>Tech Stack:</strong> Next.js, FastAPI, Redis, RAG, Docker, Knowledge Graph, LangChain, Prometheus, Grafana
                <br><br>
                • Spearheaded a large-scale backend refactor initiative, decomposing a 7,700+ LOC monolithic app with 58 tightly coupled endpoints into a modular architecture; reduced weekly merge conflicts by 50% and accelerated feature delivery
@@ -22,7 +22,7 @@
 
 - title: <strong>Northeastern University</strong><br><span style="font-size:0.9em; font-weight:400;">Graduate Teaching Assistant</span>
   from: 2024
-  to: 2025
+  to: 
   description: <strong>Focus Areas:</strong> Algorithms, Python, Java, C, Code Review, Mentorship
                <br><br>
                • Mentored 45+ students in Python, Java, and C with emphasis on algorithmic complexity, modular system design, and robust input validation, achieving a 92% positive feedback rating

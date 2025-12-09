@@ -7,21 +7,16 @@ weight: 3
 
 # **About Me**
 
-Hi, I’m **{{ site.author.name }}** :wave:, a full-stack + AI engineer focused on building scalable systems, ML pipelines, and production-quality tooling. I enjoy turning messy data and complex architectures into reliable products that ship fast and stay maintainable.
+Hi, I’m **{{ site.author.name }}** :wave:
+
+- MS in Computer Science (expected 2026)
+- Focus: backend, distributed systems, ML systems
+- Looking for: SWE / ML Engineer roles (Summer/Fall 2025)
+- Strengths: ML pipeline optimization, RAG, distributed & cloud infra
 
 ---
 
-## Working Experience
-{% include about/timeline.html title="Working Experience" source=site.data.timeline-work %}
-
----
-
-## Education
-{% include about/timeline.html title="Education" source=site.data.timeline-education %}
-
----
-
-## Skills
+## Tech Stack
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
