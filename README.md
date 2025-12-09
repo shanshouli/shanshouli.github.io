@@ -17,13 +17,6 @@ MS in Computer Science from Northeastern University with a background in Structu
 - **Databases:** MySQL, MongoDB, Redis, PostgreSQL, Elasticsearch
 - **Message Queues:** Apache Kafka, RabbitMQ, RocketMQ
 
-## Featured Projects
-
-1. **Deep Learning Pipeline for Neutron Reflectivity Analysis** - PyTorch, CUDA, HPC
-2. **Scalable E-commerce Platform** - Spring Cloud, AWS, Kafka, Docker
-3. **Truss Internal Force Calculator** - C++, Finite Element Method
-4. **Concrete-filled Steel Tube Analysis** - ABAQUS, Finite Element Analysis, Python
-5. **Seismic Wave Analysis** - MATLAB, Signal Processing
 
 ## Built With
 
