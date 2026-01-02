@@ -5,11 +5,20 @@ image: https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800
 description: End-to-end ML pipeline automating neutron reflectivity data interpretation with improved CNN model, achieving 12% improvement in SLD profile R² score through optimized HPC training on NVIDIA A100/V100 GPUs.
 ---
 
+<style>
+/* Page-specific font override to use a more standard system stack. */
+.markdown-body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+</style>
+
+
 # Deep Learning Pipeline for Neutron Reflectivity Analysis
 
 **Duration:** Jan 2025 – Apr 2025  
 **Collaboration:** Oak Ridge National Laboratory  
-**Tech Stack:** PyTorch, NumPy, Pandas, CUDA, Slurm, HPC, Linux
+**Tech Stack:** PyTorch, NumPy, Pandas, CUDA, Slurm, HPC, Linux  
+**Paper:** In preparation — link coming soon
 
 ## Overview
 
@@ -37,7 +46,7 @@ Developed an end-to-end machine learning pipeline that automates the interpretat
 ## Technical Highlights
 
 - **Deep Learning Framework:** PyTorch with custom loss functions for physical constraints
-- **Data Pipeline:** Scalable ETL processes handling terabytes of experimental data
+
 - **GPU Optimization:** Efficient batch processing and memory management for large-scale training
 - **Scientific Computing:** Integration with physics-based models and experimental validation
 
