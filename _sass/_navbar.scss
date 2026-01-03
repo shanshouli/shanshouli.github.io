@@ -1,35 +1,23 @@
 .link-after {
-  content: "";
-  display: block;
-  height: 0.15em;
-  background: $primary;
+  display: none;
 }
 
 .nav-link,
 .navbar-brand {
-  &::after {
-    @extend .link-after;
-    width: 0;
-    transition: width 0.35s;
-  }
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition: color 200ms ease, opacity 200ms ease;
 
-  &:hover::after {
-    width: 100%;
+  &::after {
+    content: none;
   }
 }
 
 .nav-item.active {
-  font-weight: bold;
-
-  &::after {
-    @extend .link-after;
-    width: 100% !important;
-  }
+  font-weight: 600;
 }
 
 .navbar-brand {
-  margin-bottom: -14px;
-  &::after {
-    margin-top: -0.25em;
-  }
+  font-weight: 600;
+  margin-bottom: 0;
 }

@@ -1,4 +1,15 @@
 .markdown-body {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 24px;
+  padding: 2.5rem 2.75rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  @media (max-width: 767.98px) {
+    padding: 1.5rem 1.25rem;
+    border-radius: 20px;
+  }
+
   p,
   li {
     letter-spacing: -0.01em;
@@ -7,11 +18,13 @@
 
   h1,
   h2 {
-    margin-top: 32px;
+    margin-top: 40px;
   }
 
   hr {
-    background: $secondary;
+    background: rgba(0, 0, 0, 0.12);
+    border: 0;
+    height: 1px;
   }
 
   img:not(.emoji) {
@@ -34,35 +47,24 @@
   }
 
   a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) {
-    display: inline-block;
+    color: $primary;
     text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 200ms ease, border-color 200ms ease;
 
     &:hover {
-      color: $primary;
-    }
-
-    &::after {
-      content: "";
-      display: block;
-      height: 0.15em;
-      margin-top: -0.15em;
-      width: 0;
-      background: $primary;
-      transition: width 0.35s;
-    }
-
-    &:hover::after {
-      width: 100%;
+      color: darken($primary, 6%);
+      border-color: currentColor;
     }
   }
 
   pre {
     background: $light;
-    border: 1px solid #ddd;
+    border: 1px solid rgba(0, 0, 0, 0.08);
     color: $dark;
     font-family: monospace;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 1.6;
     margin-bottom: 1.6em;
     max-width: 100%;
     padding: 1em 1.5em;
@@ -81,7 +83,7 @@
   }
 
   blockquote {
-    border-left: 0.25em solid $primary;
+    border-left: 0.25em solid rgba(0, 0, 0, 0.12);
     color: $secondary;
     padding: 0 1em;
   }
@@ -112,12 +114,12 @@
       padding-bottom: 12px;
       font-weight: 500;
       text-align: left;
-      background-color: $primary;
-      color: white;
+      background-color: $light;
+      color: $text-black;
     }
 
     tr:nth-child(even) {
-      background-color: rgba(0, 0, 0, 0.05);
+      background-color: rgba(0, 0, 0, 0.03);
     }
   }
 }

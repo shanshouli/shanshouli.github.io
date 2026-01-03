@@ -44,6 +44,12 @@ $dark-900: #17191a;
     background-color: $dark-600;
   }
 
+  .markdown-body {
+    background-color: $dark-600;
+    border-color: $dark-300;
+    box-shadow: none;
+  }
+
   .card.border {
     .card-footer {
       background-color: rgba(0, 0, 0, 0.1);
