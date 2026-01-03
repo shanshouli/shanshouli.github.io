@@ -71,6 +71,11 @@ $dark-900: #17191a;
     color: $text-white;
   }
 
+  .timeline-body .content {
+    background-color: $dark-600;
+    border-color: $dark-300;
+  }
+
   // Tables
   table:not(.highlight) {
     td {

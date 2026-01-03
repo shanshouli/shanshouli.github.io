@@ -2,7 +2,7 @@
   {% if include.title %}
     <h4 class="mb-3">{{ include.title }}</h4>
   {% endif %}
-  <div class="timeline-body bg-themed">
+  <div class="timeline-body">
     {% assign items = include.source | default: site.data.timeline %}
     {% for item in items %}
       <div class="timeline-item">
