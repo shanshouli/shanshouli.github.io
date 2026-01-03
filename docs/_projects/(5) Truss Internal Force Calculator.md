@@ -1,7 +1,7 @@
 ---
 name: Truss Internal Force Calculation Program
 tools: [C++, Finite Element Method, Structural Analysis]
-image: https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800
+image: https://images.unsplash.com/photo-1635793806110-51e6dced1aca?w=800
 description: C++ structural analysis software implementing finite element methods for truss structures, achieving 98% accuracy with 40% improvement in computational efficiency and 50% reduction in analysis time.
 ---
 
@@ -78,4 +78,3 @@ The program provides structural engineers with:
 - **Numerical Methods:** Implementation of finite element formulations
 - **Linear Algebra:** Matrix operations and equation solving
 - **Software Engineering:** Complete SDLC from requirements to deployment
-

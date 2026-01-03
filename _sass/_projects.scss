@@ -11,6 +11,11 @@
     border-radius: $rounded-borders $rounded-borders 0 0;
   }
 
+  .project-img {
+    height: 220px;
+    object-fit: cover;
+  }
+
   transition: transform 250ms ease, box-shadow 250ms ease;
 
   &:hover:not(.post) {

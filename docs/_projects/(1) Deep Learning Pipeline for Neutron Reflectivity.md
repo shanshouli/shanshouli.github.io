@@ -1,7 +1,7 @@
 ---
 name: Deep Learning Pipeline for Neutron Reflectivity Analysis
 tools: [PyTorch, NumPy, Pandas, CUDA, HPC, Slurm]
-image: https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800
+image: https://images.unsplash.com/photo-1553623095-2b4d2819983f?w=800
 description: End-to-end ML pipeline automating neutron reflectivity data interpretation with improved CNN model, achieving 12% improvement in SLD profile R² score through optimized HPC training on NVIDIA A100/V100 GPUs.
 ---
 
@@ -53,4 +53,3 @@ Developed an end-to-end machine learning pipeline that automates the interpretat
 ## Impact
 
 This pipeline enables researchers to rapidly analyze neutron reflectivity experiments, reducing interpretation time from hours to minutes while improving accuracy beyond traditional manual fitting methods.
-

@@ -1,7 +1,7 @@
 ---
 name: Robust Data Processor - Multi-Tenant Log Ingestion System
 tools: [Go, AWS Lambda, SQS, DynamoDB, API Gateway, Terraform]
-image: https://images.unsplash.com/photo-1518770660439-4636190af475?w=800
+image: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800
 description: Serverless, multi-tenant log ingestion pipeline in Go with async processing, strict isolation, and resilience testing.
 ---
 

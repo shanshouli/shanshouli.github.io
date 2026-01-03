@@ -1,7 +1,7 @@
 ---
 name: ESG Reporting & AI Analytics Platform
 tools: [Next.js, React, TypeScript, FastAPI, RAG, PostgreSQL]
-image: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800
+image: https://images.unsplash.com/photo-1562519990-50eb51e282b2?w=800
 description: Full-stack ESG reporting platform with ETL + RAG workflows for document ingestion, analytics, chat, and report generation.
 ---
 
