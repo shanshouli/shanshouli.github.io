@@ -65,12 +65,6 @@ $dark-900: #17191a;
     }
   }
 
-  .timeline-body .content {
-    background-color: $dark-600;
-    border-color: $dark-300;
-    box-shadow: none;
-  }
-
   .chip {
     background-color: $dark-300;
     border-color: $dark-100;
@@ -107,5 +101,17 @@ $dark-900: #17191a;
   // Timeline 
   .timeline-body .timeline-item:after{
     background-color: $dark-900;
+  }
+
+  .timeline-title-sub,
+  .timeline-meta,
+  .timeline-label,
+  .timeline-details summary,
+  .timeline-details ul {
+    color: rgba($text-white, 0.7);
+  }
+
+  .timeline-summary {
+    color: $text-white;
   }
 }
