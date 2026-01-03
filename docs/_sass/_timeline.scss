@@ -4,7 +4,7 @@
   padding: 0;
   background-color: transparent;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   gap: 22px;
 
   &:after {
@@ -27,6 +27,9 @@
       border-radius: $rounded-borders;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
       transition: transform 220ms ease, box-shadow 220ms ease;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
 
       .date {
         margin-top: -5px;
@@ -143,6 +146,10 @@
   margin-bottom: 8px;
 }
 
+.timeline-details {
+  margin-top: auto;
+}
+
 .chip-row {
   display: flex;
   flex-wrap: wrap;
@@ -161,10 +168,4 @@
   color: $text-black;
   letter-spacing: -0.01em;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-}
-
-@media (min-width: 992px) {
-  .timeline-body {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
 }
