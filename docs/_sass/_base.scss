@@ -138,6 +138,15 @@ h6,
   color: $primary !important;
 }
 
+a:not(.btn):not(.badge) {
+  color: $text-black;
+}
+
+a:not(.btn):not(.badge):hover {
+  color: $text-black;
+  opacity: 0.85;
+}
+
 .bg-primary {
   background-color: $primary !important;
 }

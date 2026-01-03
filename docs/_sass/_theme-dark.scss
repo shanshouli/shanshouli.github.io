@@ -39,6 +39,15 @@ $dark-900: #17191a;
     }
   }
 
+  a:not(.btn):not(.badge) {
+    color: $text-white;
+  }
+
+  a:not(.btn):not(.badge):hover {
+    color: $text-white;
+    opacity: 0.85;
+  }
+
   // Cards
   .card {
     background-color: $dark-600;

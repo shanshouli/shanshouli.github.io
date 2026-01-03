@@ -2,6 +2,7 @@
   border-radius: $rounded-borders;
   text-decoration: none !important;
   margin: 10px auto;
+  color: $text-black;
   border: 1px solid rgba(0, 0, 0, 0.06);
   background-color: #ffffff;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
@@ -15,5 +16,6 @@
   &:hover:not(.post) {
     transform: translateY(-4px);
     box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12);
+    color: $text-black;
   }
 }
