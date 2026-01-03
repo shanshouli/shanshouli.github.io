@@ -51,6 +51,69 @@
   font-size: 0.98rem;
 }
 
+.timeline-title-main {
+  font-weight: 600;
+}
+
+.timeline-title-sub {
+  font-weight: 400;
+  color: $secondary;
+  font-size: 0.9em;
+}
+
+.timeline-meta {
+  color: $secondary;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.timeline-summary {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: $text-black;
+}
+
+.timeline-chips {
+  margin-bottom: 4px;
+}
+
+.timeline-details {
+  margin-top: 10px;
+}
+
+.timeline-details summary {
+  cursor: pointer;
+  color: $secondary;
+  font-weight: 500;
+  font-size: 0.95rem;
+  list-style: none;
+}
+
+.timeline-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.timeline-details summary .summary-close {
+  display: none;
+}
+
+.timeline-details[open] summary .summary-open {
+  display: none;
+}
+
+.timeline-details[open] summary .summary-close {
+  display: inline;
+}
+
+.timeline-details ul {
+  margin: 8px 0 0 18px;
+  color: $secondary;
+}
+
+.timeline-details li {
+  margin-bottom: 8px;
+}
+
 .chip-row {
   display: flex;
   flex-wrap: wrap;

@@ -1,31 +1,64 @@
-- title: <span style="font-size:1.3em; font-weight:700;">DeepThink Health</span><br><span style="font-size:0.85em; font-weight:400; opacity:0.8;">Software Engineer</span>
+- title: <span class="timeline-title-main">DeepThink Health</span><span class="timeline-title-sub"> · Software Engineer · 2025</span>
   from: 2025
-  to: 
-  description: <strong>Tech Stack:</strong> ML Pipeline Optimization, Model Fine-tuning, LayoutLMv3, Table Transformer, AWS, Label Studio
-               <br><br>
-               • Developed and fine-tuned an AI-powered document processing pipeline using LayoutLMv3 and Table Transformer to extract structured data from scanned medical-device bill sheets; improved field extraction accuracy by 25%, reduced manual review time by 40%, and accelerated billing automation
-               <br><br>
-               • Built annotation workflows and error-reporting processes for 3,000+ scanned bill sheets, uncovering key OCR failure patterns and guiding model retraining; improved data pipeline accuracy to 95%+, reducing manual correction efforts by 30%
+  to:
+  show_date: false
+  description: |
+    <div class="timeline-meta">ML Pipeline Optimization · LayoutLMv3 · Table Transformer · AWS · Label Studio</div>
+    <div class="timeline-summary">Built an end-to-end document AI pipeline to extract structured fields from scanned medical-device bill sheets.</div>
+    <div class="chip-row timeline-chips">
+      <span class="chip">+25% accuracy</span>
+      <span class="chip">-40% manual review</span>
+      <span class="chip">3,000+ docs</span>
+      <span class="chip">95%+ pipeline accuracy</span>
+    </div>
+    <details class="timeline-details">
+      <summary><span class="summary-open">Show more</span><span class="summary-close">Show less</span></summary>
+      <ul>
+        <li>Fine-tuned LayoutLMv3 + Table Transformer for key-value and table extraction; accelerated billing automation and improved extraction accuracy by 25%.</li>
+        <li>Designed annotation and error-reporting workflows over 3,000+ scans; identified OCR failure patterns to guide retraining and raised pipeline accuracy to 95%+, cutting manual corrections by 30%.</li>
+      </ul>
+    </details>
 
-- title: <span style="font-size:1.3em; font-weight:700;">Aosenuma</span><br><span style="font-size:0.85em; font-weight:400; opacity:0.8;">Software Developer</span>
+- title: <span class="timeline-title-main">Aosenuma</span><span class="timeline-title-sub"> · Software Developer · 2024</span>
   from: 2024
-  to: 
-  description: <strong>Tech Stack:</strong> Next.js, FastAPI, Redis, RAG, Docker, Knowledge Graph, LangChain, Prometheus, Grafana
-               <br><br>
-               • Spearheaded a large-scale backend refactor initiative, decomposing a 7,700+ LOC monolithic app with 58 tightly coupled endpoints into a modular architecture; reduced weekly merge conflicts by 50% and accelerated feature delivery
-               <br><br>
-               • Developed a CI/CD pipeline with k6 smoke testing plus Prometheus and Grafana dashboards; enabled performance trend tracking and automated alerts
-               <br><br>
-               • Built and deployed a RAG microservice using LangChain to process unstructured and tabular data, generate embeddings, and construct a knowledge graph; cut data retrieval time by 40%
-               <br><br>
-               • Reduced token cost by 44% via Helicone monitoring, intent-based model routing, and Redis caching; leveraged RAGAS and prompt tuning to boost answer faithfulness and context precision
+  to:
+  show_date: false
+  description: |
+    <div class="timeline-meta">Next.js · FastAPI · Redis · RAG · Docker · LangChain · Prometheus · Grafana</div>
+    <div class="timeline-summary">Re-architected a 7,700+ LOC monolith into modular services and shipped a RAG microservice for faster retrieval.</div>
+    <div class="chip-row timeline-chips">
+      <span class="chip">7,700+ LOC</span>
+      <span class="chip">58 endpoints</span>
+      <span class="chip">-50% merge conflicts</span>
+      <span class="chip">-40% retrieval time</span>
+      <span class="chip">-44% token cost</span>
+    </div>
+    <details class="timeline-details">
+      <summary><span class="summary-open">Show more</span><span class="summary-close">Show less</span></summary>
+      <ul>
+        <li>Refactored a tightly coupled backend into modular services, reducing weekly merge conflicts by 50% and speeding up delivery.</li>
+        <li>Built CI/CD with k6 smoke tests plus Prometheus and Grafana dashboards for continuous performance tracking.</li>
+        <li>Deployed a LangChain-based RAG service with embeddings and knowledge graph retrieval, cutting data retrieval time by 40%.</li>
+      </ul>
+    </details>
 
-- title: <span style="font-size:1.3em; font-weight:700;">Northeastern University</span><br><span style="font-size:0.85em; font-weight:400; opacity:0.8;">Graduate Teaching Assistant</span>
+- title: <span class="timeline-title-main">Northeastern University</span><span class="timeline-title-sub"> · Graduate Teaching Assistant · 2024</span>
   from: 2024
-  to: 
-  description: <strong>Focus Areas:</strong> Algorithms, Python, Java, C, Code Review, Mentorship
-               <br><br>
-               • Mentored 45+ students in Python, Java, and C with emphasis on algorithmic complexity, modular system design, and robust input validation, achieving a 92% positive feedback rating
-               <br><br>
-               • Led informal code reviews, helping identify performance bottlenecks and testing gaps, reducing common runtime errors by 40%+ and improving assignment pass rates by 20%
-
+  to:
+  show_date: false
+  description: |
+    <div class="timeline-meta">Algorithms · Python · Java · C · Code Review · Mentorship</div>
+    <div class="timeline-summary">Mentored students in algorithms and systems with emphasis on code quality and review.</div>
+    <div class="chip-row timeline-chips">
+      <span class="chip">45+ students</span>
+      <span class="chip">92% positive feedback</span>
+      <span class="chip">-40% runtime errors</span>
+      <span class="chip">+20% pass rate</span>
+    </div>
+    <details class="timeline-details">
+      <summary><span class="summary-open">Show more</span><span class="summary-close">Show less</span></summary>
+      <ul>
+        <li>Mentored 45+ students in Python, Java, and C with focus on algorithmic complexity and robust input validation.</li>
+        <li>Led informal code reviews to identify performance bottlenecks and testing gaps, reducing common errors by 40%+.</li>
+      </ul>
+    </details>

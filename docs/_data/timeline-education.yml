@@ -30,7 +30,6 @@
     <strong>Coursework:</strong>
     <div class="chip-row">
       <span class="chip">Database Systems</span>
-      <span class="chip">Cloud Computing</span>
       <span class="chip">Big Data Systems</span>
       <span class="chip">Statistical Learning</span>
       <span class="chip">Advanced Web Dev</span>
@@ -54,10 +53,9 @@
     <strong>Coursework:</strong>
     <div class="chip-row">
       <span class="chip">Data Structures</span>
-      <span class="chip">Algorithms</span>
+      <span class="chip">Advanced Maths</span>
+      <span class="chip">Linear Algebra</span>
       <span class="chip">Calculus</span>
-      <span class="chip">Discrete Math</span>
-      <span class="chip">Data Mining</span>
       <span class="chip">Data Analysis</span>
     </div>
     <br>
