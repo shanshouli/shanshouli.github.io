@@ -5,5 +5,6 @@ permalink: /experience/
 weight: 3
 ---
 
-{% include about/timeline.html source=site.data.timeline-work %}
-
+<div class="timeline-page">
+  {% include about/timeline.html source=site.data.timeline-work %}
+</div>

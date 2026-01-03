@@ -3,6 +3,9 @@
   border-radius: 0;
   padding: 0;
   background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
 
   &:after {
     display: none;
@@ -10,11 +13,7 @@
 
   .timeline-item {
     position: relative;
-    margin-bottom: 22px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
+    margin: 0;
 
     &:after {
       display: none;
@@ -22,11 +21,11 @@
 
     .content {
       margin: 0;
-      padding: 24px 28px;
-      background-color: $light;
+      padding: 24px 26px;
+      background-color: #ffffff;
       border: 1px solid rgba(0, 0, 0, 0.06);
       border-radius: $rounded-borders;
-      box-shadow: none;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
 
       .date {
         margin-top: -5px;
@@ -57,6 +56,19 @@
   font-size: 0.98rem;
 }
 
+.timeline-page {
+  margin: -2.5rem -2.75rem;
+  padding: 2.5rem 2.75rem;
+  background-color: $light;
+}
+
+@media (max-width: 767.98px) {
+  .timeline-page {
+    margin: -1.5rem -1.25rem;
+    padding: 1.5rem 1.25rem;
+  }
+}
+
 .timeline-title-main {
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -72,31 +84,31 @@
 .timeline-meta {
   color: $secondary;
   font-size: 0.95rem;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .timeline-label {
   color: $secondary;
-  font-size: 0.85rem;
-  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 600;
-  margin: 16px 0 8px;
+  margin: 18px 0 8px;
 }
 
 .timeline-summary {
-  font-size: 1.05rem;
-  margin-bottom: 12px;
+  font-size: 1.1rem;
+  margin-bottom: 14px;
   color: $text-black;
   line-height: 1.5;
 }
 
 .timeline-chips {
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .timeline-details {
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 .timeline-details summary {
