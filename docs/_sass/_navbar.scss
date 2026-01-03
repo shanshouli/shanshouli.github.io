@@ -1,0 +1,23 @@
+.link-after {
+  display: none;
+}
+
+.nav-link,
+.navbar-brand {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition: color 200ms ease, opacity 200ms ease;
+
+  &::after {
+    content: none;
+  }
+}
+
+.nav-item.active {
+  font-weight: 600;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  margin-bottom: 0;
+}

@@ -1,0 +1,19 @@
+.project.card {
+  border-radius: $rounded-borders;
+  text-decoration: none !important;
+  margin: 10px auto;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+  .card-img-top {
+    border-radius: $rounded-borders $rounded-borders 0 0;
+  }
+
+  transition: transform 250ms ease, box-shadow 250ms ease;
+
+  &:hover:not(.post) {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12);
+  }
+}
