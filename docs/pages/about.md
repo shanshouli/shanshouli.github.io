@@ -20,7 +20,7 @@ Hi, I'm **{{ site.author.name }}** :wave:
 
 **Programming Languages:**
 
-<p>
+<p class="icon-row">
   <a href="https://www.python.org/" target="_blank"><img src="https://skillicons.dev/icons?i=python" alt="Python" height="40"/></a>
   <a href="https://www.java.com/" target="_blank"><img src="https://skillicons.dev/icons?i=java" alt="Java" height="40"/></a>
   <a href="https://isocpp.org/" target="_blank"><img src="https://skillicons.dev/icons?i=cpp" alt="C++" height="40"/></a>
@@ -33,7 +33,7 @@ Hi, I'm **{{ site.author.name }}** :wave:
 
 **AI / ML:**
 
-<p>
+<p class="icon-row">
   <a href="https://pytorch.org/" target="_blank"><img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" height="40"/></a>
   <a href="https://scikit-learn.org/" target="_blank"><img src="https://skillicons.dev/icons?i=sklearn" alt="scikit-learn" height="40"/></a>
   <a href="https://www.tensorflow.org/" target="_blank"><img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" height="40"/></a>
@@ -44,7 +44,7 @@ Hi, I'm **{{ site.author.name }}** :wave:
 
 **Cloud & DevOps:**
 
-<p>
+<p class="icon-row">
   <a href="https://aws.amazon.com/" target="_blank"><img src="https://skillicons.dev/icons?i=aws" alt="AWS" height="40"/></a>
   <a href="https://www.docker.com/" target="_blank"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" height="40"/></a>
   <a href="https://kubernetes.io/" target="_blank"><img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes" height="40"/></a>
@@ -56,7 +56,7 @@ Hi, I'm **{{ site.author.name }}** :wave:
 
 **Frameworks & Tools:**
 
-<p>
+<p class="icon-row">
   <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://skillicons.dev/icons?i=spring" alt="Spring Boot" height="40"/></a>
   <a href="https://nodejs.org/" target="_blank"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" height="40"/></a>
   <a href="https://expressjs.com/" target="_blank"><img src="https://skillicons.dev/icons?i=express" alt="Express.js" height="40"/></a>
@@ -68,7 +68,7 @@ Hi, I'm **{{ site.author.name }}** :wave:
 
 **Databases & Caching:**
 
-<p>
+<p class="icon-row">
   <a href="https://www.postgresql.org/" target="_blank"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" height="40"/></a>
   <a href="https://www.mysql.com/" target="_blank"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" height="40"/></a>
   <a href="https://www.mongodb.com/" target="_blank"><img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" height="40"/></a>
@@ -79,7 +79,7 @@ Hi, I'm **{{ site.author.name }}** :wave:
 
 **Message Queue & Middleware:**
 
-<p>
+<p class="icon-row">
   <a href="https://kafka.apache.org/" target="_blank"><img src="https://skillicons.dev/icons?i=kafka" alt="Apache Kafka" height="40"/></a>
   <a href="https://www.rabbitmq.com/" target="_blank"><img src="https://skillicons.dev/icons?i=rabbitmq" alt="RabbitMQ" height="40"/></a>
   <a href="https://rocketmq.apache.org/" target="_blank"><img src="https://img.shields.io/badge/RocketMQ-D77310?style=for-the-badge&logo=apache&logoColor=white" alt="RocketMQ" height="28"/></a>
@@ -87,7 +87,7 @@ Hi, I'm **{{ site.author.name }}** :wave:
 
 **Version Control & Tools:**
 
-<p>
+<p class="icon-row">
   <a href="https://git-scm.com/" target="_blank"><img src="https://skillicons.dev/icons?i=git" alt="Git" height="40"/></a>
   <a href="https://github.com/" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" height="40"/></a>
   <a href="https://www.linux.org/" target="_blank"><img src="https://skillicons.dev/icons?i=linux" alt="Linux" height="40"/></a>

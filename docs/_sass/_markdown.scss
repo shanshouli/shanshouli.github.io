@@ -40,6 +40,22 @@
     vertical-align: middle;
   }
 
+  .icon-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 12px;
+    align-items: center;
+  }
+
+  .icon-row a {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .icon-row img {
+    margin: 0;
+  }
+
   .video {
     position: relative;
     padding-bottom: 56.25%;

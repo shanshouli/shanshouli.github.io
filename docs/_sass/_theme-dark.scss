@@ -65,6 +65,18 @@ $dark-900: #17191a;
     }
   }
 
+  .timeline-body .content {
+    background-color: $dark-600;
+    border-color: $dark-300;
+    box-shadow: none;
+  }
+
+  .chip {
+    background-color: $dark-300;
+    border-color: $dark-100;
+    color: $text-white;
+  }
+
   // Tables
   table:not(.highlight) {
     td {
