@@ -3,6 +3,7 @@ layout: page
 title: Education
 permalink: /education/
 weight: 4
+timeline_layout: true
 ---
 
 <div class="timeline-page">

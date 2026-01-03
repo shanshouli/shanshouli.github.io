@@ -57,6 +57,13 @@
     margin: 0;
   }
 
+  &.timeline-bleed {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+
   .video {
     position: relative;
     padding-bottom: 56.25%;
