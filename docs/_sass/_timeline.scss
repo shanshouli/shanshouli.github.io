@@ -4,7 +4,7 @@
   padding: 0;
   background-color: transparent;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 22px;
 
   &:after {
@@ -25,13 +25,19 @@
       background-color: #ffffff;
       border: 1px solid rgba(0, 0, 0, 0.06);
       border-radius: $rounded-borders;
-      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+      transition: transform 220ms ease, box-shadow 220ms ease;
 
       .date {
         margin-top: -5px;
         margin-bottom: 15px;
         color: #6c757d;
       }
+    }
+
+    &:hover .content {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
   }
 }
@@ -57,16 +63,9 @@
 }
 
 .timeline-page {
-  margin: -2.5rem -2.75rem;
-  padding: 2.5rem 2.75rem;
-  background-color: $light;
-}
-
-@media (max-width: 767.98px) {
-  .timeline-page {
-    margin: -1.5rem -1.25rem;
-    padding: 1.5rem 1.25rem;
-  }
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
 }
 
 .timeline-title-main {
@@ -154,11 +153,18 @@
 .chip {
   display: inline-flex;
   align-items: center;
-  padding: 4px 10px;
+  padding: 3px 10px;
   border-radius: 999px;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.08);
   font-size: 0.85rem;
   color: $text-black;
   letter-spacing: -0.01em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+@media (min-width: 992px) {
+  .timeline-body {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }

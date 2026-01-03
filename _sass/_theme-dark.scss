@@ -66,14 +66,15 @@ $dark-900: #17191a;
   }
 
   .chip {
-    background-color: $dark-300;
-    border-color: $dark-100;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.18);
     color: $text-white;
+    box-shadow: none;
   }
 
   .timeline-body .content {
     background-color: $dark-600;
-    border-color: $dark-300;
+    border-color: rgba(255, 255, 255, 0.08);
   }
 
   // Tables
@@ -121,6 +122,6 @@ $dark-900: #17191a;
   }
 
   .timeline-page {
-    background-color: $dark-900;
+    background-color: transparent;
   }
 }
