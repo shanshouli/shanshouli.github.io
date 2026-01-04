@@ -3,14 +3,6 @@
   to:
   show_date: false
   description: |
-    <div class="timeline-label">Tech Stack</div>
-    <div class="chip-row timeline-chips">
-      <span class="chip">ML Pipeline Optimization</span>
-      <span class="chip">LayoutLMv3</span>
-      <span class="chip">Table Transformer</span>
-      <span class="chip">AWS</span>
-      <span class="chip">Label Studio</span>
-    </div>
     <div class="timeline-label">Summary</div>
     <div class="timeline-summary">Built an end-to-end document AI pipeline to extract structured fields from scanned medical-device bill sheets.</div>
     <div class="timeline-label">Impact</div>
@@ -19,6 +11,13 @@
       <span class="chip">-40% manual review</span>
       <span class="chip">3,000+ docs</span>
       <span class="chip">95%+ pipeline accuracy</span>
+    </div>
+    <div class="timeline-label">Tech Stack</div>
+    <div class="chip-row timeline-chips">
+      <span class="chip">ML Pipeline Optimization</span>
+      <span class="chip">Table Transformer</span>
+      <span class="chip">AWS</span>
+      <span class="chip">Label Studio</span>
     </div>
     <div class="timeline-label">Details</div>
     <details class="timeline-details">
@@ -34,6 +33,16 @@
   to:
   show_date: false
   description: |
+    <div class="timeline-label">Summary</div>
+    <div class="timeline-summary">Re-architected a 7,700+ LOC monolith into modular services and shipped a RAG microservice for faster retrieval.</div>
+    <div class="timeline-label">Impact</div>
+    <div class="chip-row timeline-chips">
+      <span class="chip">7,700+ LOC</span>
+      <span class="chip">58 endpoints</span>
+      <span class="chip">-50% merge conflicts</span>
+      <span class="chip">-40% retrieval time</span>
+      <span class="chip">-44% token cost</span>
+    </div>
     <div class="timeline-label">Tech Stack</div>
     <div class="chip-row timeline-chips">
       <span class="chip">Next.js</span>
@@ -45,16 +54,6 @@
       <span class="chip">Prometheus</span>
       <span class="chip">Grafana</span>
     </div>
-    <div class="timeline-label">Summary</div>
-    <div class="timeline-summary">Re-architected a 7,700+ LOC monolith into modular services and shipped a RAG microservice for faster retrieval.</div>
-    <div class="timeline-label">Impact</div>
-    <div class="chip-row timeline-chips">
-      <span class="chip">7,700+ LOC</span>
-      <span class="chip">58 endpoints</span>
-      <span class="chip">-50% merge conflicts</span>
-      <span class="chip">-40% retrieval time</span>
-      <span class="chip">-44% token cost</span>
-    </div>
     <div class="timeline-label">Details</div>
     <details class="timeline-details">
       <summary><span class="summary-open">Show more</span><span class="summary-close">Show less</span></summary>
@@ -65,11 +64,20 @@
       </ul>
     </details>
 
-- title: <span class="timeline-title-main">Northeastern University</span><span class="timeline-title-sub"> · Graduate Teaching Assistant · 2024</span>
+- title: <span class="timeline-title-main">Northeastern University</span><span class="timeline-title-sub"> · Graduate Teaching Assistant · 2024-2026</span>
   from: 2024
-  to:
+  to: 2026
   show_date: false
   description: |
+    <div class="timeline-label">Summary</div>
+    <div class="timeline-summary">Mentored students in algorithms and systems with emphasis on code quality and review.</div>
+    <div class="timeline-label">Impact</div>
+    <div class="chip-row timeline-chips">
+      <span class="chip">100+ students</span>
+      <span class="chip">92% positive feedback</span>
+      <span class="chip">-40% runtime errors</span>
+      <span class="chip">+20% pass rate</span>
+    </div>
     <div class="timeline-label">Focus Areas</div>
     <div class="chip-row timeline-chips">
       <span class="chip">Algorithms</span>
@@ -77,22 +85,13 @@
       <span class="chip">Java</span>
       <span class="chip">C</span>
       <span class="chip">Code Review</span>
-      <span class="chip">Mentorship</span>
-    </div>
-    <div class="timeline-label">Summary</div>
-    <div class="timeline-summary">Mentored students in algorithms and systems with emphasis on code quality and review.</div>
-    <div class="timeline-label">Impact</div>
-    <div class="chip-row timeline-chips">
-      <span class="chip">45+ students</span>
-      <span class="chip">92% positive feedback</span>
-      <span class="chip">-40% runtime errors</span>
-      <span class="chip">+20% pass rate</span>
+      <span class="chip">AI Foundations</span>
     </div>
     <div class="timeline-label">Details</div>
     <details class="timeline-details">
       <summary><span class="summary-open">Show more</span><span class="summary-close">Show less</span></summary>
       <ul>
-        <li>Mentored 45+ students in Python, Java, and C with focus on algorithmic complexity and robust input validation.</li>
+        <li>Mentored 100+ students in Python, Java, and C with focus on algorithmic complexity and robust input validation.</li>
         <li>Led informal code reviews to identify performance bottlenecks and testing gaps, reducing common errors by 40%+.</li>
       </ul>
     </details>

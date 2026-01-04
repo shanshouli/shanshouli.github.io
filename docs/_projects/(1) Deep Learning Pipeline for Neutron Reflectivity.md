@@ -46,7 +46,6 @@ Developed an end-to-end machine learning pipeline that automates the interpretat
 ## Technical Highlights
 
 - **Deep Learning Framework:** PyTorch with custom loss functions for physical constraints
-
 - **GPU Optimization:** Efficient batch processing and memory management for large-scale training
 - **Scientific Computing:** Integration with physics-based models and experimental validation
 
