@@ -9,6 +9,7 @@ description: C++ structural analysis software implementing finite element method
 
 **Duration:** Mar 2018 – Jun 2018  
 **Tech Stack:** C++, Finite Element Method, Linear Algebra, GUI Development
+**GitHub:** https://github.com/shanshouli/Truss-Internal-Force-Calculator
 
 ## Overview
 
@@ -36,45 +37,30 @@ Designed and implemented a comprehensive structural analysis software in C++ for
 - **Stress Distribution:** Visualization of stress patterns throughout the structure
 - **Multiple Load Cases:** Support for dead loads, live loads, and load combinations
 
-### 🖥️ User Interface
-- **Real-time Visualization:** Interactive display of structural geometry and results
-- **Data Management:** Efficient input/output handling for project data
-- **Results Dashboard:** Clear presentation of analysis outcomes with graphical representations
-- **Reduced analysis time by 50%** through streamlined workflow and intuitive interface
 
 ## Technical Highlights
 
 ### Algorithm Optimization
 - **Sparse Matrix Techniques:** Efficient storage and manipulation of large stiffness matrices
 - **Iterative Solvers:** Fast convergence for systems with thousands of degrees of freedom
-- **Memory Management:** Optimized data structures for handling large-scale problems
-- **Parallel Processing:** Multi-threaded computations for improved performance
+
 
 ### Software Architecture
 - **Modular Design:** Separation of analysis engine, data management, and user interface
 - **Extensibility:** Easy addition of new element types and analysis features
 - **Error Handling:** Robust validation and error reporting mechanisms
-- **Documentation:** Comprehensive user manual and inline code documentation
+
 
 ## Applications
 
 This software is applicable to:
 - **Bridge Trusses:** Analysis of highway and railway bridge structures
 - **Roof Trusses:** Design verification for building roof systems
-- **Tower Structures:** Evaluation of transmission towers and communication masts
-- **Space Frames:** Analysis of complex three-dimensional structures
 
-## Engineering Impact
-
-The program provides structural engineers with:
-- **Rapid Design Iterations:** Quick evaluation of design alternatives
-- **Verification Tool:** Cross-checking of commercial software results
-- **Educational Resource:** Teaching platform for finite element method concepts
-- **Cost Reduction:** Decreased analysis time leading to improved project economics
 
 ## Technical Skills Demonstrated
 
 - **Object-Oriented Programming:** Well-structured C++ codebase
 - **Numerical Methods:** Implementation of finite element formulations
 - **Linear Algebra:** Matrix operations and equation solving
-- **Software Engineering:** Complete SDLC from requirements to deployment
+

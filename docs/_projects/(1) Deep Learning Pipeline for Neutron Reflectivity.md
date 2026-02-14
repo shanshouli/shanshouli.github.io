@@ -18,7 +18,10 @@ description: End-to-end ML pipeline automating neutron reflectivity data interpr
 **Duration:** Jan 2025 – Apr 2025  
 **Collaboration:** Oak Ridge National Laboratory  
 **Tech Stack:** PyTorch, NumPy, Pandas, CUDA, Slurm, HPC, Linux  
+**Pypi:** https://pypi.org/project/pyreflect-nr/
 **Paper:** In preparation — link coming soon
+**GitHub:** https://github.com/shanshouli/NR-SLD-CNN-DROPOUT.git
+
 
 ## Overview
 
@@ -52,3 +55,4 @@ Developed an end-to-end machine learning pipeline that automates the interpretat
 ## Impact
 
 This pipeline enables researchers to rapidly analyze neutron reflectivity experiments, reducing interpretation time from hours to minutes while improving accuracy beyond traditional manual fitting methods.
+

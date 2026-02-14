@@ -23,7 +23,7 @@
     <details class="timeline-details">
       <summary><span class="summary-open">Show more</span><span class="summary-close">Show less</span></summary>
       <ul>
-        <li>Fine-tuned LayoutLMv3 + Table Transformer for key-value and table extraction; accelerated billing automation and improved extraction accuracy by 25%.</li>
+        <li>Fine-tuned Table Transformer for key-value and table extraction; accelerated billing automation and improved extraction accuracy by 25%.</li>
         <li>Designed annotation and error-reporting workflows over 3,000+ scans; identified OCR failure patterns to guide retraining and raised pipeline accuracy to 95%+, cutting manual corrections by 30%.</li>
       </ul>
     </details>
