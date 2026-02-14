@@ -7,9 +7,9 @@ description: Serverless, multi-tenant log ingestion pipeline in Go with async pr
 
 # Robust Data Processor - Multi-Tenant Log Ingestion System
 
-**Duration:** 2025 Nov
-**Tech Stack:** Go, AWS Lambda, SQS, DynamoDB, API Gateway, Terraform, CloudWatch
-**GitHub:** https://github.com/shanshouli/Robust-Data-Processor.git
+**Duration:** 2025 Nov  
+**Tech Stack:** Go, AWS Lambda, SQS, DynamoDB, API Gateway, Terraform, CloudWatch  
+**GitHub:** [github.com/shanshouli/Robust-Data-Processor](https://github.com/shanshouli/Robust-Data-Processor)
 
 ## Overview
 

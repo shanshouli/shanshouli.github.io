@@ -8,8 +8,8 @@ description: C++ structural analysis software implementing finite element method
 # Truss Internal Force Calculation Program
 
 **Duration:** Mar 2018 – Jun 2018  
-**Tech Stack:** C++, Finite Element Method, Linear Algebra, GUI Development
-**GitHub:** https://github.com/shanshouli/Truss-Internal-Force-Calculator
+**Tech Stack:** C++, Finite Element Method, Linear Algebra, GUI Development  
+**GitHub:** [github.com/shanshouli/Truss-Internal-Force-Calculator](https://github.com/shanshouli/Truss-Internal-Force-Calculator)
 
 ## Overview
 

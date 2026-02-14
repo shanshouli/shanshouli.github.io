@@ -8,8 +8,8 @@ description: Full-stack AI agent platform with async document processing, multi-
 # AI Research Agent Platform
 
 **Duration:** Feb 2026 – Feb 2026  
-**Tech Stack:** FastAPI, Next.js, LangGraph, Redis, PostgreSQL, pgvector, MCP Protocol, GitHub Actions
-**GitHub:** https://github.com/shanshouli/AI-Research-Agent-Platform
+**Tech Stack:** FastAPI, Next.js, LangGraph, Redis, PostgreSQL, pgvector, MCP Protocol, GitHub Actions  
+**GitHub:** [github.com/shanshouli/AI-Research-Agent-Platform](https://github.com/shanshouli/AI-Research-Agent-Platform)
 
 ## Overview
 

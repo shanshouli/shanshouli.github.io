@@ -9,8 +9,8 @@ description: Advanced seismic wave analysis using MATLAB to compute response and
 
 **Duration:** Feb 2019 – Jun 2019  
 **Location:** Dalian University of Technology, China  
-**Tech Stack:** MATLAB, Signal Processing, Fourier Analysis, Structural Dynamics
-**GitHub:** https://github.com/shanshouli/Seismic-Signal-Spectral-Analysis
+**Tech Stack:** MATLAB, Signal Processing, Fourier Analysis, Structural Dynamics  
+**GitHub:** [github.com/shanshouli/Seismic-Signal-Spectral-Analysis](https://github.com/shanshouli/Seismic-Signal-Spectral-Analysis)
 
 ## Overview
 Developed a MATLAB tool to transform seismic waveforms from the time domain to the frequency domain (FFT), extracting amplitude/phase spectra to support frequency-based structural dynamics analysis and earthquake-resistant design.
