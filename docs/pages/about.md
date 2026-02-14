@@ -9,7 +9,7 @@ weight: 1
 
 Hi, I'm **{{ site.author.name }}** :wave:
 
-- MS in Computer Science (expected April/Aug 2026)
+- MS in Computer Science (expected Aug 2026)
 - Focus: backend, distributed systems, ML systems
 - Looking for: SWE / ML Engineer roles (2026 NG & Co-op)
 - Strengths: distributed & cloud infra, ML pipeline optimization, RAG

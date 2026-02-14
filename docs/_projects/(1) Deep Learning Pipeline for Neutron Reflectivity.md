@@ -20,7 +20,7 @@ description: End-to-end ML pipeline automating neutron reflectivity data interpr
 **Tech Stack:** PyTorch, NumPy, Pandas, CUDA, Slurm, HPC, Linux  
 **Pypi:** [pypi.org/project/pyreflect-nr](https://pypi.org/project/pyreflect-nr/)  
 **Paper:** In preparation — link coming soon  
-**GitHub:** [github.com/shanshouli/NR-SLD-CNN-DROPOUT](https://github.com/shanshouli/NR-SLD-CNN-DROPOUT.git)
+**GitHub:** [github.com/shanshouli/NR-SLD-CNN-DROPOUT](https://github.com/shanshouli/NR-SLD-CNN-DROPOUT)
 
 
 ## Overview
